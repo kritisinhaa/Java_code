@@ -1,0 +1,17 @@
+public class Demo{
+  //sum of n numbers  with recursion
+  //eg: n=5, 1+2+3+4+5=15
+  static int sumN(int n){
+    if(n==0){
+      return 0;
+
+    }
+    else{
+      return n+sumN(n-1);
+    }
+  }
+  public static void main(String[] args) {
+    System.out.println(sumN(5));
+      
+  }
+}
